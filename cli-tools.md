@@ -26,3 +26,17 @@ https://github.com/sharkdp/fd
 - Full of perl and shit, but... does the job!
 - **WARNING:** `man unp` is a lie, use `unp -h`
 - Glorious glory: `unp -s`
+
+---
+
+# tldr / tealdeer
+
+*Simplified, example based and community-driven man pages.*
+
+https://github.com/dbrgn/tealdeer
+
+`brew install tealdeer`
+
+Output of `tldr fd`:
+
+![tldr fd output](tldr-output.png)
