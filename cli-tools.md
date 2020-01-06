@@ -1,3 +1,21 @@
+
+# ripgrep
+
+*Grep as it should have been built.*
+
+https://github.com/BurntSushi/ripgrep
+
+`brew install ripgrep`
+
+- Fast
+- Sane defaults: smartcase, colors, logical flag names
+- Filter files by type, glob pattern, parent directory
+- Multiline search
+- Respects .gitignore
+- Supports multiple encodings
+
+---
+
 # fd
 
 *A simple, fast and user-friendly alternative to 'find'*
@@ -10,7 +28,7 @@ https://github.com/sharkdp/fd
 - Supports both regex and glob search
 - Smart case
 - Ignores hidden directories and files, by default
-- Ignores patterns from your .gitignore, by default
+- Respects .gitignore
 - Unicode-aware
 
 ![Screencast from fd github repo](./fd-github-screencast.svg)
