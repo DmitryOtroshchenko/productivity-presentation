@@ -1,3 +1,6 @@
+---
+marp: true
+---
 
 # ripgrep
 
@@ -16,7 +19,7 @@ https://github.com/BurntSushi/ripgrep
 
 ---
 
-# fd
+# fd 1
 
 *A simple, fast and user-friendly alternative to 'find'*
 
@@ -31,7 +34,11 @@ https://github.com/sharkdp/fd
 - Respects .gitignore
 - Unicode-aware
 
-![Screencast from fd github repo](./fd-github-screencast.svg)
+---
+
+# fd 2
+
+![height:500px](./fd-github-screencast.svg)
 
 ---
 
@@ -47,7 +54,7 @@ https://github.com/sharkdp/fd
 
 ---
 
-# tldr / tealdeer
+# tldr 1
 
 *Simplified, example based and community-driven man pages.*
 
@@ -57,11 +64,15 @@ https://github.com/dbrgn/tealdeer
 
 Output of `tldr fd`:
 
-![tldr fd output](tldr-output.png)
+---
+
+# tldr 2
+
+![height:500px](tldr-output.png)
 
 ---
 
-# coreutils
+# coreutils 1
 
 *Normal Linux ls, pwd, etc without OSX / BSD shit.*
 
@@ -71,6 +82,9 @@ See https://apple.stackexchange.com/questions/69223/how-to-replace-mac-os-x-util
 
 People suggest `brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep` for full Linux-like experience, but in my opinion `coreutils` are more than enough unless you write your own shell scripts and rely on Linux-like utils flavor.
 
+---
+
+# coreutil 2
 **Coreutils bring a minor inconvenience:**
 
 ```
@@ -84,7 +98,7 @@ From my experience using coreutils without "g" prefix does not break anything.
 
 ---
 
-# bat
+# bat 1
 
 *A (way) better cat.*
 
@@ -97,5 +111,8 @@ From my experience using coreutils without "g" prefix does not break anything.
 
 - **WARNING:** Integrations with ripgrep, man, watch look broken.
 
+---
 
-![tldr fd output](bat.png)
+# bat 2
+
+![height:500px](bat.png)
